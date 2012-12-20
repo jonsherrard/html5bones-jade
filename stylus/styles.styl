@@ -1,0 +1,39 @@
+body
+
+body
+
+@media print
+  *
+    color: #000 !important
+    box-shadow: none !important
+    text-shadow: none !important
+    background: transparent !important
+
+  html
+    background-color: #fff
+
+  nav
+    display: none
+
+  a[href]:after
+    content: " (" attr(href) ") "
+
+  a[href]
+    font-weight: bold
+    text-decoration: underline
+    color: #06c
+    border: none
+
+  a[href^="javascript:"]:after, a[href^="#"]:after
+    content: ""
+
+  abbr[title]:after
+    content: " (" attr(title) ")"
+
+  figure
+    margin-bottom: 1em
+    overflow: hidden
+
+  figure img
+    border: 1px solid #000
+

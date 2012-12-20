@@ -9,6 +9,8 @@ HTML5 Bones - The template that goes back to basics
 Purpose
 =======
 
+This is a Jade, Stylus and CoffeeScript conversion. All credit goes to Ian Devlin for this nice, neat repo.
+
 This template can be used as just that, a template to get you going in HTML5, or it can simply be used as a guide via the inline comments when building your own HTML5 page from scratch.
 
 Features
@@ -19,10 +21,6 @@ Features
 - Print CSS included in the main styles.css file
 - [Normalize.css](http://necolas.github.com/normalize.css/) is included to normalise CSS across browsers
 - Inline documentation
-
-Documentation
-=============
-The documentation is contained within inline comments in the various files, but especially index.html
 
 Contribute
 ==========
